@@ -4,10 +4,11 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      hello world!
-      <Link href={"youtube"}> youtube</Link>
-      <Link href={"window"}> window</Link>
-      <Link href={"hii/hello"}> hello</Link>
+      hello world! <br />
+      <Link href={"youtube"}> youtube</Link> <br />
+      <Link href={"window"}> window</Link> <br />
+      <Link href={"hii/hello"}> hello</Link> <br />
+      <Link href={"inputdata"}> inputdata</Link>
       
     </div>
   )

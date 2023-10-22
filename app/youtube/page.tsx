@@ -1,6 +1,7 @@
 import React from "react";
 import './header_menu.css'
 import Body from "./Body";
+import Image from "next/image"
 function page(){
     return(
         <>
@@ -12,7 +13,7 @@ function page(){
     <div className="os right">Library</div>
     <div className="os">History</div>
 
-    <img src="pp.jfif" alt=""  />
+    <Image src="/icons/chrome.png" alt="dp" width={25} height={38} />
   </div>
   <div className="menu">
     <br />
