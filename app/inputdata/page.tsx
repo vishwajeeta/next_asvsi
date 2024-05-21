@@ -5,6 +5,7 @@ const hii= async()=>{
   );
   const data=await res.json()
   
+  
   return(
     <div>
       <h1>hii {data.id} {data.name}</h1>
