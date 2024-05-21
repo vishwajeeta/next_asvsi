@@ -1,21 +1,14 @@
-"use client";
-import React, { useState } from "react";
-
-export default function Home() {
-  const [inputData, setInputData] = useState("");
-  
-  return (
-    <div>
-      <input
-        type="text"
-        placeholder="search"
-        
-        onChange={(e) => {
-          setInputData(e.target.value);
-        }}
-      />
-
-      <h1>Hii:-{inputData} </h1>
-    </div>
+const hii= async()=>{
+  const res= await fetch(
+    'http://localhost:3000/api/users',
+    {cache:'no-store'}
   );
+  const data=await res.json()
+  
+  return(
+    <div>
+      <h1>hii {data.id} {data.name}</h1>
+    </div>
+  )
 }
+export default hii;

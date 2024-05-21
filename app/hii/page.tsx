@@ -16,7 +16,7 @@ class Counter extends Component{
   )}
   increment=()=>{
     const {count}=this.state;
-    return count ===0 ? <h1>Zero</h1>:count;
+    return count ===0 ? <>Zero</>:count;
   }
 }
 
