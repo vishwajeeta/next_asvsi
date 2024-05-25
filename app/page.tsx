@@ -5,10 +5,11 @@ const page = () => {
   return (
     <div>
       hello world! <br />
-      <Link href={"youtube"}> youtube</Link> <br />
-      <Link href={"window"}> window</Link> <br />
+      <Link href={"youtube"}> YouTube</Link> <br />
+      <Link href={"window"}> Window</Link> <br />
       <Link href={"hii/hello"}> hello</Link> <br />
-      <Link href={"inputdata"}> inputdata</Link>
+      <Link href={"inputdata"}> inputdata</Link> <br />
+      <Link href={"practice"}> Practice</Link> <br />
       
     </div>
   )
