@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcel Rate Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>PickupKart</h1>
+      <form id="rateCalculatorForm">
+        <div id="first">
+          <div>
+            <label for="pickupPincode">Pickup Pincode *</label>
+            <input type="text" id="pickupPincode" required class="top" />
+            <span>hello</span>
+          </div>
+          <div>
+            <label for="deliveryPincode">Delivery Pincode *</label>
+            <input type="text" id="deliveryPincode" required class="top" />
+            <span>hello</span>
+          </div>
+        </div>
+
+        <div id="second">
+          <div>
+            <label for="parcelWeight">Parcel Weight (in kg) *</label>
+            <input type="number" id="parcelWeight" required class="top2" />
+          </div>
+          <div>
+            <label for="parcelLength">Length (in cm) *</label>
+            <input type="number" id="parcelLength" required class="top2" />
+          </div>
+          <div>
+            <label for="parcelWidth">Width (in cm) *</label>
+            <input type="number" id="parcelWidth" required class="top2" />
+          </div>
+          <div>
+            <label for="parcelHeight">Height (in cm) *</label>
+            <input type="number" id="parcelHeight" required class="top2" />
+          </div>
+        </div>
+        <button type="button" onclick="calculateRate()">Calculate Rate</button>
+      </form>
+      <div id="shippingRate"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
