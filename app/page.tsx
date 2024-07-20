@@ -10,7 +10,7 @@ const page = () => {
       <Link href={"hii/hello"}> hello</Link> <br />
       <Link href={"inputdata"}> inputdata</Link> <br />
       <Link href={"practice"}> Practice</Link> <br />
-      
+      <a href="/Note.txt" target='_blank' download={true}>Download</a>
     </div>
   )
 }
