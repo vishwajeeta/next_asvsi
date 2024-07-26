@@ -10,7 +10,8 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Youtube clone',
   description: 'Youtube clone on Next.js',
-  icons:'icons/cortana.png'
+  icons:'icons/cortana.png',
+  keywords:'youtube, Next.js, youtube clone, ASVSI'
 }
 function page(){
     return(
