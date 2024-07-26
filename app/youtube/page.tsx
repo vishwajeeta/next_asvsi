@@ -2,6 +2,16 @@ import React from "react";
 import './header_menu.css'
 import Body from "./Body";
 import Image from "next/image"
+import type { Metadata } from 'next'
+
+
+
+
+export const metadata: Metadata = {
+  title: 'Youtube clone',
+  description: 'Youtube clone on Next.js',
+  icons:'icons/cortana.png'
+}
 function page(){
     return(
         <>
