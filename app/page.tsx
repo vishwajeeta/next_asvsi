@@ -8,6 +8,8 @@ const page = () => {
       hello world! <br />
       <Link href={"youtube"}> YouTube</Link> <br />
       <Link href={"window"}> Window</Link> <br />
+      <Link href={"gallery"}> Gallery</Link> <br />
+
       <Link href={"hii/hello"}> hello</Link> <br />
       <Link href={"inputdata"}> inputdata</Link> <br />
       <Link href={"practice"}> Practice</Link> <br />
